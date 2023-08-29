@@ -1,4 +1,28 @@
+body{
+  background-color: rgb(216, 216, 215) !important;
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.row.hero{
+  text-align: center !important;
+  padding:20px !important;
+}
+
+
 .cards1{
   display: flex !important;
   justify-content: center !important;
 }
+
+
+.row.galeria {
+  text-align: -webkit-center !important;
+}
+
+@media only screen and (max-width: 720px) {
+  .galeria img {
+      width: 100% !important;
+  }
+
+}
+
